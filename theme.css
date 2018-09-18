@@ -1,0 +1,232 @@
+#worldwide{
+  width: 20px;
+  height: 20px;
+  float:right;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+lang{
+  float:right;
+  margin-right: -130px;
+  margin-top: 0px;
+}
+lang ul li{
+  display: inline;
+}
+lang ul li a:link, ul li a:visited{
+  text-decoration: none;
+  color: black;
+}
+lang ul li.selected{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+nav{
+  margin: 0px 20px 10px 0px;
+  padding: 5px 5px 5px 0px;
+  text-decoration: none;
+  text-align: center;
+}
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+nav ul li{
+  display:inline;
+  padding: 10px 10px 10px 10px;
+
+}
+nav ul li a:link, nav ul li a:visited{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+nav ul li.selected{
+  font-size: 2em;
+  font-weight: bolder;
+  }
+
+nav ul li#home{
+  background-image: url('images/General/home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px 45px;
+}
+
+nav ul li#software{
+  background-image: url('images/General/software.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li#console{
+  background-image: url('images/General/console.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li#update{
+  background-image: url('images/General/update.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li#about{
+  background-image: url('images/General/about.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li a:hover{
+  font-size: 30px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#pic{
+  float: right;
+  width:190px;
+  height:325px;
+  border-radius: 25px;
+}
+body{
+background-image: url('images/General/bg1.jpg');
+}
+
+#introduction{
+  background-image: url('images/MainPage/notepad.jpg');
+  border-style:double;
+  width: 900px;
+  padding: 0px 50px 50px 50px;
+  border-radius: 15px 50px;
+}
+#welcome{
+  font-family:'Hi Melody', cursive;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#intro{
+  font-family:'Tajawal', sans-serif;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+#instruction{
+  border-radius: 15px 100px;
+  background-image: url('images/MainPage/crystal.jpg');
+  font-family: 'Tajawal', sans-serif;
+  margin-top: 40px;
+  padding: 25px 25px 25px 25px;
+  border: 40px;
+}
+
+#navpic{
+  float: right;
+  width:360px;
+  height:60px;
+  border-width:
+}
+
+.tripick{
+  width:80px;
+  height:80px;
+  margin-left: 20px;
+  float: right;
+}
+#headerfreeze{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#nick{
+  font-family: 'Emblema One', cursive;
+  font-size: 1.2em;
+  color: blue;
+}
+
+#cate{
+  font-family: 'Tajawal', sans-serif;
+  color:#996633 ;
+}
+#header{
+background-image: url('images/Mainpage/pattern1.jpg');
+height: 100px;
+margin-bottom: 5px;
+  padding-top: 0px;
+  border-style: groove;
+  border-radius: 25px;
+}
+#icon{
+  width: 100px;
+  height: 100px;
+  float:left;
+}
+
+#help{
+  font-style: italic;
+}
+
+h1{
+  font-size: 20px;
+  font-family:  sans-serif;
+}
+h4{
+  font-size: 30px;
+}
+
+h5{
+  font-size: 15px;
+}
+
+#slogan{
+  font-size: 15px;
+  font-style:oblique;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+#slo{
+  font-size: 15px;
+  font-style:oblique;
+  float: right;
+  font-family: 'Pacifico', cursive;
+  margin-top: -5px;
+}
+
+#flame{
+  width:35px;
+  height: 40px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+#Footer{
+  margin-top: 15px;
+  background-color: #E0E0E0;
+  border-style: solid;
+      border-width: 10px 10px 10px 10px;
+      border-radius: 10px;
+  border-color: #ab2cc1;
+  text-align: center;
+}
+h6{
+  margin:0px;
+  padding: 0px 0px 10px 0px;
+}
+#BTT{
+  margin: 0px;
+  padding:0px;
+  float: right;
+  font-size: 1.1em;
+}

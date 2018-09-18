@@ -1,0 +1,198 @@
+
+/*language select icon*/
+#worldwide{
+  width: 20px;
+  height: 20px;
+  float:right;
+  margin-top: 20px;
+  margin-left: -20px;
+
+/* language selection */
+}
+lang{
+  float:right;
+  margin-right: -130px;
+  margin-top: 0px;
+}
+lang ul li{
+  display: inline;
+}
+lang ul li a:link, ul li a:visited{
+  text-decoration: none;
+  color: black;
+}
+lang ul li.selected{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/*navgation bar*/
+nav{
+  margin: 0px 20px 10px 0px;
+  padding: 5px 5px 5px 0px;
+  text-decoration: none;
+  text-align: center;
+}
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+nav ul li{
+  display:inline;
+  padding: 10px 10px 10px 10px;
+
+}
+nav ul li a:link, nav ul li a:visited{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+nav ul li.selected{
+  font-size: 2em;
+  font-weight: bolder;
+  }
+
+nav ul li#home{
+  background-image: url('images/General/home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px 45px;
+}
+
+nav ul li#software{
+  background-image: url('images/General/software.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li#console{
+  background-image: url('images/General/console.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li#update{
+  background-image: url('images/General/update.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li#about{
+  background-image: url('images/General/about.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+nav ul li a:hover{
+  font-size: 30px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+/*background image */
+body{
+background-image: url('images/General/bg1.jpg');
+}
+
+
+/* Whole body freeze */
+#headerfreeze{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Operation Zero */
+#nick{
+  font-family: 'Emblema One', cursive;
+  font-size: 1.2em;
+  color: blue;
+}
+
+/* Top left "anything" */
+#cate{
+  font-family: 'Tajawal', sans-serif;
+  color:#996633 ;
+}
+
+/*header*/
+#header{
+background-image: url('images/General/pattern1.jpg');
+height: 100px;
+margin-bottom: 5px;
+  padding-top: 0px;
+  border-style: groove;
+  border-radius: 25px;
+}
+
+/* Top right search icon */
+#icon{
+  width: 100px;
+  height: 100px;
+  float:left;
+}
+
+/* Weclome to operation zero */
+h1{
+  font-size: 20px;
+  font-family:  sans-serif;
+}
+
+/* Best place to download everything */
+#slogan{
+  font-size: 15px;
+  font-style:oblique;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+/* top right slogan: features great....Pc build. */
+#slo{
+  font-size: 15px;
+  font-style:oblique;
+  float: right;
+  font-family: 'Pacifico', cursive;
+  margin-top: -5px;
+}
+
+#updates{
+background-image:url('images/update/pattern1.jpg');
+background-size: 500px 500px;
+border-radius: 20px;
+border-style: groove;
+}
+
+/* Flame icon*/
+#flame{
+  width:35px;
+  height: 40px;
+  margin-left: 80px;
+  text-align: center;
+}
+/*footer*/
+#Footer{
+  margin-top: 15px;
+  background-color: #E0E0E0;
+  border-style: solid;
+      border-width: 10px 10px 10px 10px;
+      border-radius: 10px;
+  border-color: #ab2cc1;
+  text-align: center;
+}
+/*back to top button*/
+#BTT{
+  margin: 0px;
+  padding:0px;
+  float: right;
+  font-size: 1.1em;
+}
